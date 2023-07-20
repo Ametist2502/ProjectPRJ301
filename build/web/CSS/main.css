@@ -1,0 +1,25 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 4, 2023, 10:40:16 AM
+    Author     : Admin MSI
+*/
+
+.body {
+    background-color: gray;
+}
+
+.header{
+    height: 100px;
+}
+
+.questions{
+    height: 530px;
+    background-color: darkgray;
+}
+
+.footer{
+    height: 50px;
+}

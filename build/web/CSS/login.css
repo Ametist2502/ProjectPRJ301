@@ -1,0 +1,73 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 18, 2023, 4:07:03 PM
+    Author     : Admin MSI
+*/
+body{
+    background-color: graytext;
+}
+
+.login{
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 420px;
+    background-color: rgb(241, 237, 237);
+    position: absolute;
+    left: 37%;
+    top: 30%;
+}
+
+.warning{
+    text-align: center;
+    padding-top: 10px;
+    color: red;
+}
+
+.examCode{
+    margin-left: 25px;
+}
+
+.userName{
+    margin-left: 27.5px;
+}
+
+.password{
+    margin-left: 36.5px;
+}
+
+.domain{
+    margin-left: 50px;
+}
+
+.button > button{
+    border-radius: 5px;
+    width: 80px;
+    height: 23px;
+}
+
+.login-bt{
+    margin-left: 130px;
+    margin-right: 70px;
+}
+
+.check > p{
+    text-align: center;
+    color: blue;
+    display: inline-block;
+    font-size: small;
+    text-decoration: underline;
+}
+
+.sound{
+    margin-left: 100px;
+    margin-right: 35px;
+}
+
+.notice{
+    text-align: center;
+    color: blue;
+    font-size: medium;
+}

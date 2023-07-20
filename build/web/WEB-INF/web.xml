@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>logincontroller</servlet-name>
+        <servlet-class>Controller.LoginController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ExamClient</servlet-name>
+        <servlet-class>Controller.ExamClientController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Result</servlet-name>
+        <servlet-class>Controller.ResultingController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TotalQues</servlet-name>
+        <servlet-class>Controller.SelectQuestion</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logincontroller</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ExamClient</servlet-name>
+        <url-pattern>/examclient</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Result</servlet-name>
+        <url-pattern>/result</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TotalQues</servlet-name>
+        <url-pattern>/totalques</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
